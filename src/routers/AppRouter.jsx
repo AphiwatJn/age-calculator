@@ -11,7 +11,7 @@ const Layout = () => {
 function AppRouter() {
   const main = createBrowserRouter([
     {
-      path: "/",
+      path: "/age-calculator",
       element: <Layout />,
       children: [
         {
